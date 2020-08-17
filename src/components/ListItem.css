@@ -1,0 +1,18 @@
+.listItem {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #bbb;
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+}
+
+.listItem > * {
+  margin-right: 15px;
+}
+
+.listItem > *:last-child {
+  margin-right: 0px;
+}
+
+/* check the two last classes again */
